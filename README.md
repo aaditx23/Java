@@ -1,3 +1,2 @@
 # Java
-This is a demo project.
-This project contains a very basic GUI rock-paper-scissors game. 
+This repository contains the demo projects I have done while learning java.
