@@ -1,7 +1,7 @@
-package onefilelearn;
+
 import java.util.ArrayList;
 import java.util.Scanner;
-public class onefile{
+public class string_slicing{
     public static void main(String[] args){
     	System.out.println("Enter Sentence:");
     	Scanner scan = new Scanner(System.in);
