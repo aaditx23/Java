@@ -1,13 +1,13 @@
 package learning;
-import javax.swing.JOptionPane;
+import javax.swing.JFrame;
+
+
 public class learn {
 	public static void main(String[] args) {
-		String turn_in = JOptionPane.showInputDialog("Enter the number of turns:\n\n\n");
-		int turn_int = Integer.parseInt(turn_in);
-		score score_obj =new score();
-		int arg = score_obj.mode();
-		game obj = new game();
-		obj.game_start(arg, turn_int);
+    	input guiobject = new input();
+    	guiobject.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    	guiobject.setSize(750,300);
+    	guiobject.setVisible(true);
 	}
 		
 	}
